@@ -113,7 +113,7 @@ function _renderLabels({ config, svg, centerTx, r }) {
     .attr("class", "segment-value")
     // styling stuffs
     .style("text-anchor", "middle")
-    .style("font-size", config.fontSize)
+    .style("font-size", config.segmentFontSize)
     .style("font-weight", "bold")
     // .style("fill", "#666");
     .style("fill", config.textColor)

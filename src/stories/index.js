@@ -287,7 +287,7 @@ storiesOf("react-d3-speedometer", module)
           segments={5}
           value={333}
           segmentFontSize={"36px"}
-          valueFontSize={"64px"}
+          valueFontSize={"36px"}
           width={900}
           height={500}
         />
