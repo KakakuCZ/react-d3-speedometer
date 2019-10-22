@@ -286,7 +286,10 @@ storiesOf("react-d3-speedometer", module)
           maxSegmentLabels={5}
           segments={5}
           value={333}
-          fontSize={"24px"}
+          segmentFontSize={"36px"}
+          valueFontSize={"64px"}
+          width={900}
+          height={500}
         />
       </div>
     ),

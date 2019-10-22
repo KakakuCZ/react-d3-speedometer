@@ -129,10 +129,10 @@ function _renderCurrentValueText({ config, svg }) {
       .attr("class", "current-value")
       .attr("text-anchor", "middle")
       // position the text 23pt below
-      .attr("y", 23)
+      .attr("y", config.valueFontSize)
       // add text
       .text(config.currentValue || "amaidhi")
-      .style("font-size", "16px")
+      .style("font-size", config.valueFontSize)
       .style("font-weight", "bold")
       .style("fill", config.textColor)
   )
